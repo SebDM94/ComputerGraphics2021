@@ -1,1 +1,23 @@
+#include<stdio.h>
+#include<math.h>
 
+int main(){
+	int x1,x2,y1,y2;
+	float dist;
+	
+	printf("enter first point (x1, y1)\n");
+	scanf("%d %d",&x1,&y1);
+	fflush;
+	printf("enter second point (x2, y2)\n");
+	scanf("%d %d",&x2,&y2);
+	fflush;
+	
+	for(int i=1;i<=x2;i++){
+		printf("O ");
+		for(int j=1;i<=y2;j++){
+			printf("O ");
+		}
+	} 
+	
+	return 0;
+}
